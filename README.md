@@ -18,8 +18,8 @@ This project provides a command-line tool to automatically generate module struc
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd <repository-directory>
+git clone https://github.com/TusharSync/domain-driven-module-generator.git
+cd domain-driven-module-generator
 ```
 
 ### 2. Install Dependencies
