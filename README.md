@@ -106,13 +106,13 @@ Modify the `module-structure.json` file if needed:
 To generate a module, use the following command:
 
 ```bash
-npm run generate <module-name>
+npm run generate-module
 ```
 
 For example, to generate a module named `user`:
 
 ```bash
-npm run generate user
+npm run generate-module
 ```
 
 ### 3. Check the Output
@@ -121,7 +121,7 @@ The script will automatically generate the directory and file structure based on
 
 ## Customization
 
-- **JSON Structure**: You can easily extend or modify the structure in the `module-structure.json` file. Add new directories, files, or even dynamic placeholders like `<moduleName>`.
+- **JSON Structure**: You can easily extend or modify the structure in the `modules.config.json` file. Add new directories, files, or even dynamic placeholders like `<moduleName>`.
 - **File Templates**: The script creates empty files, but you can update the `createFile` function to add boilerplate content to specific files based on your needs.
 
 ## Project Structure
